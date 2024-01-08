@@ -1,0 +1,12 @@
+.cards-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    gap: 20px; /* Espacio entre las tarjetas */
+  }
+  
+  .card {
+    width: 100%; /* O el ancho deseado para cada tarjeta */
+    height: 300px; /* Alto de cada tarjeta */
+    border: 1px solid #ccc; /* Borde para las tarjetas */
+  }
+  
